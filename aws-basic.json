@@ -1,0 +1,4 @@
+{
+  "question": "What AWS tool can you use to create a BI visialization dashboard with S3, RDS or Redshift as data source?",
+  "answer" : ["quicksight", "aws quicksight"]
+},
