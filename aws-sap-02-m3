@@ -1,0 +1,12 @@
+[
+  {
+     "question" : "A weather monitoring agency stores and manages the global weather data for the last 50 years. The data has a velocity of 1GB per minute. You would like to store the data with only the most relevant attributes to build a predictive model for weather patterns.
+Which of the following solutions would you use to build the most cost-effective solution with the LEAST amount of infrastructure maintenance?",
+     "options" : [ "Capture the data in Kinesis Data Firehose and use an intermediary Lambda function to filter and transform the incoming stream before the output is dumped on S3",
+                   "Capture the data in a Spark Streaming Cluster on EMR use Spark Streaming transformations before writing to S3",
+                   "Capture the data in Kinesis Data Analytics and use SQL queries to filter and transform the data before writing to S3",
+                   "Capture the data in Kinesis Data Streams and use an intermediary Lambda function to filter and transform the incoming stream before the output is dumped on S3"
+            ],
+      "answer": "Capture the data in Kinesis Data Firehose and use an intermediary Lambda function to filter and transform the incoming stream before the output is dumped on S3"
+  }
+]
